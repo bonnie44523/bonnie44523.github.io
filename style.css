@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f5f5f5, #ddd);
+}
+
+header {
+    background-color: lightskyblue;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+nav {
+    display: none;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        margin: 0;
+    }
+}
+
+#main {
+    margin: 20px;
+}
+
+.menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.menu-icon:hover {
+    color: #ccc;
+}
+
+.Fadhlans {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: black;
+}
+
+.Izzan {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  border-color: black;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+  }
+  
+  .right-image {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .left-socials {
+    margin-right: 50px;
+  }
+  
+  .right-socials {
+    margin-left: 50px;
+  }
+  
+  .social-links a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .social-links a i {
+    font-size: 20px;
+  }
+  
+.right-image {
+  width: 200px;
+}
+
+.portfolio {
+  margin-left: 550px;
+  border-style:solid;
+  border-radius: 30px;
+}
+.Our_socials_text {
+  background: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+  border-style: dotted;
+}
